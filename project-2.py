@@ -7,6 +7,7 @@ top_of_range = input("enter the range of number you would like: ")
 
 if int(top_of_range) > 10:
     print("enter a number between 0 and 10")
+    quit()
 
 if top_of_range.isdigit():
     top_of_range = int(top_of_range)
